@@ -42,8 +42,3 @@ pipx install docx2pdf
 ```
 docx2pdf docx/ result/
 ```
-
-## ИЛИ
-
-1. Так же
-2. Прогнать файлы через https://tools.pdf24.org/en/docx-to-pdf
