@@ -6,39 +6,33 @@
 npm i
 ```
 
-1. Запустить скрипт, получится папка docx
-
-```
-node ./script.js
-```
-
-2. Установить scoop
+1. Установить scoop
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-3. Установить pipx
+2. Установить pipx
 
 ```
 scoop install pipx
 ```
 
-4. Обновить PATH (После этого перезайти в учетку)
+3. Обновить PATH (После этого перезайти в учетку)
 
 ```
 pipx ensurepath
 ```
 
-5. Установить docx2pdf
+4. Установить docx2pdf
 
 ```
 pipx install docx2pdf
 ```
 
-6. Запустить конвертацию в pdf
+5. Запустить конвертацию в pdf
 
 ```
-docx2pdf docx/ result/
+run.bat
 ```
